@@ -33,3 +33,9 @@ bun run build
 ```sh
 bun run lint
 ```
+
+## Deploying
+
+Pushes to `main` deploy the `host-roi-calc` Cloudflare Worker, which serves
+`host-roi-calculator.sia.tools`. Pull requests get a preview at
+`https://<branch>-host-roi-calc.sia-foundation.workers.dev`.
